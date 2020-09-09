@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# parcats <img src="https://erblast.github.io/parcats/logo_parcats.png" alt="logo" width="180" height="180" align = "right"/>
+# parcats <a href='https://erblast.github.io/parcats'><img src='man/figures/logo.png' align="right" height="139" /></a>
 
 <!-- badges: start -->
 
@@ -11,6 +11,13 @@ status](https://travis-ci.org/erblast/parcats.svg?branch=master)](https://travis
 status](https://ci.appveyor.com/api/projects/status/github/erblast/parcats?branch=master&svg=true)](https://ci.appveyor.com/project/erblast/parcats)
 [![Codecov test
 coverage](https://codecov.io/gh/erblast/parcats/branch/master/graph/badge.svg)](https://codecov.io/gh/erblast/parcats?branch=master)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/parcats)](https://CRAN.R-project.org/package=parcats)
+[![CRAN\_time\_from\_release](https://www.r-pkg.org/badges/ago/parcats)](https://cran.r-project.org/package=parcats)
+[![metacran
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/parcats)](https://cran.r-project.org/package=parcats)
+[![metacran
+downloads](https://cranlogs.r-pkg.org/badges/parcats)](https://cran.r-project.org/package=parcats)
 <!-- badges: end -->
 
 ###### Create ‘plotly.js’ Parallel Categories Diagrams Using this Htmlwidget and ‘easyalluvial’
@@ -26,14 +33,11 @@ a separate package.
 
 ## Installation
 
-<!--
 ### CRAN
 
-
-```r
-install.packages('easyalluvial')
+``` r
+install.packages('parcats')
 ```
--->
 
 ### Development Version
 
@@ -48,8 +52,8 @@ devtools::install_github("erblast/parcats")
 `parcats` requires an alluvial plot created with `easyalluvial` to
 create an interactive parrallel categories diagram.
 
-  - [Data exploration with alluvial
-    plots](https://www.datisticsblog.com/2018/10/intro_easyalluvial/#features)
+  - [easyalluvial
+    documentation](https://erblast.github.io/easyalluvial/)
 
   - [easyalluvial github page](https://github.com/erblast/easyalluvial)
 
@@ -75,7 +79,7 @@ p = alluvial_wide(mtcars2, max_variables = 5)
 parcats(p, marginal_histograms = TRUE, data_input = mtcars2)
 ```
 
-![](https://erblast.github.io/parcats/demo1.gif)
+![](https://raw.githubusercontent.com/erblast/parcats/master/man/figures/demo1.gif)
 
 ### Parcats from model response alluvial
 
@@ -86,7 +90,7 @@ alluvial plots or parrallel categories diagrams we can increase the
 number of dimensions.
 
   - [Visualise model response with alluvial
-    plots](https://www.datisticsblog.com/page/visualising-model-response-with-easyalluvial/)
+    plots](https://www.datisticsblog.com/2019/04/visualising-model-response-with-easyalluvial/)
 
 Here we see the response of a random forest model if we vary the three
 variables with the highest importance while keeping all other features
@@ -103,4 +107,4 @@ p = alluvial_model_response(pred, dspace, imp, degree = 3)
 parcats(p, marginal_histograms = TRUE, imp = TRUE, data_input = df)
 ```
 
-![](https://erblast.github.io/parcats/demo2.gif)
+![](https://raw.githubusercontent.com/erblast/parcats/master/man/figures/demo2.gif)
