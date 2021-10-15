@@ -2,6 +2,7 @@
 
 export(parcats)
 export(parcatsOutput)
+export(parcats_demo)
 export(render_parcats)
 import(dplyr)
 import(easyalluvial)

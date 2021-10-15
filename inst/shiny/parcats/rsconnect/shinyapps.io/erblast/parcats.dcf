@@ -1,0 +1,13 @@
+name: parcats
+title: parcats
+username:
+account: erblast
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4534309
+bundleId: 5103769
+url: https://erblast.shinyapps.io/parcats/
+when: 1633379848.69407
+lastSyncTime: 1633379848.69408
+asMultiple: FALSE
+asStatic: FALSE
