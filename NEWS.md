@@ -1,3 +1,8 @@
+# parcats 0.0.5
+* update vignette
+* fix documentation
+* fix examples
+
 # parcats 0.0.4
 * updated package dependencies
 

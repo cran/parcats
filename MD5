@@ -1,10 +1,10 @@
-1464fa11c51c810e369ff1183f19df7b *DESCRIPTION
+50bdfd6e150d340ea1e5d16633de16b7 *DESCRIPTION
 bc49872aa986b42bfd50f16dd41513a4 *LICENSE
 fec23dfb5a2f82304430ec13cadc871b *NAMESPACE
-ba59a4bee4352e285e67c506c7fefd25 *NEWS.md
-5d981665f02cc03da4170ea17e800103 *R/parcats.R
+9ca72ba2a97bdec6a31d2575a1d9e8b1 *NEWS.md
+2404cedc2135550e4d9e533407d3186a *R/parcats.R
 b56ff2b193ecba52f9ec7f3b10cca008 *R/utils-pipe.R
-901afc2726d823e026fa07209382397f *README.md
+696136aaa4763f002fc066e8f7d9dc0a *README.md
 2c6cd9be781695fab62890307d63292d *inst/WORDLIST
 6f795602ad21fc98c67427e0b8255549 *inst/htmlwidgets/lib/plotly.js/LICENSE
 11f118b48da6bb6f028bc0d69dabd025 *inst/htmlwidgets/lib/plotly.js/locales/plotly-locale-af.js
@@ -94,9 +94,9 @@ deb19452b111cbf02f05ad3fc8ec6ed2 *inst/shiny/parcats/ui.R
 2e213d66d6488301a81188645f18e702 *man/figures/demo1.gif
 fefaf75da34f3a4aa41ad8b4b55f80e2 *man/figures/demo2.gif
 c6bfb60c3937cd4f0a37b7bf4e055468 *man/figures/logo.png
-dced4ea4e509cacb918c7089729294d3 *man/parcats-shiny.Rd
-15c5a2754d2f6d5d8fd51d81f9ba37ca *man/parcats.Rd
-0dc596adc5a6f79080f39fbce74f1d1b *man/parcats_demo.Rd
+34fc9939a0e0ce56f8b90b6b45effcdf *man/parcats-shiny.Rd
+37f9d0cb1da36a57313fd5e1b0ff888c *man/parcats.Rd
+b1cc0ee1b528e7a9b24af252e3b1b38c *man/parcats_demo.Rd
 774d9de8e95aa151215efcd304549d41 *man/pipe.Rd
 0622a97a2aaa3c342f09636052c2d7f5 *tests/spelling.R
 f1c814770ae9a015f30e6777d49e9f39 *tests/testthat.R
